@@ -1,1 +1,3 @@
-# Dog app using the dog API
+# Country app using the restcountry API
+
+- [API documentation](https://restcountries.com/)
