@@ -1,0 +1,30 @@
+{
+  "name": "dog-app",
+  "version": "1.0.0",
+  "description": "A repo to practise with my students at Ironhack",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alebausa/dog-app.git"
+  },
+  "author": "Ale Bausa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alebausa/dog-app/issues"
+  },
+  "homepage": "https://github.com/alebausa/dog-app#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

@@ -1,0 +1,7 @@
+<ul>
+{{#each countries}}
+  <li><a href="/countries/{{this.name}}">{{this.name}}</a></li>
+{{else}}
+  <li>No countries found.</li>
+{{/each}}
+</ul>
